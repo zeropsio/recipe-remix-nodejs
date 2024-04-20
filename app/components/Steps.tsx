@@ -26,19 +26,18 @@ services:
             <div>
               <h3 className="font-semibold text-lg">Step 1</h3>
               <p className="font-medium">
-                Go to{" "}
+                Open{" "}
                 <a
                   href="https://app.zerops.io/dashboard/projects"
                   target="_blank"
                 >
                   Zerops Dashboard
                 </a>{" "}
-                and Click on the <strong>Import Project</strong> button on the sidebar. (Not a
+                and locate the <strong>Import Project</strong> button on the sidebar. Not a
                 user?{" "}
                 <a href="https://zerops.io" target="_blank">
                   Register now
                 </a>
-                )
               </p>
             </div>
             <div>

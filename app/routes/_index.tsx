@@ -31,7 +31,7 @@ export default function Index() {
             Scroll down to learn how to deploy.{" "}
           </p>
           <div className="mt-10 flex text-lg flex-row justify-center items-center space-x-5">
-            <a href="https://discord.gg/5ptAqtpyvh" target="_blank">
+            <a href="https://discord.com/invite/WDvCZ54" target="_blank">
               <button className="primarybutton rounded-md">
                 Discord Community
               </button>{" "}
