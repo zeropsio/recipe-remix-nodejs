@@ -1,34 +1,26 @@
-# Zerops + Remix - Nodejs
+# Zerops x Remix - Nodejs
 
-![Header Image](/header.png)
+![Header Image](header.png)
 
-A nodejs Remix example for Zerops which you can deploy in 2 simple steps.
+A Node.js Remix app deployment example for [Zerops](https://zerops.io) - a developer first cloud platform.
 
-**Features**
+## Deploy to Zerops
 
-- Remix
-- Tailwind
-- Prettier
-
-## Instructions to Deploy on Zerops
-
-1. Navigate to the Zerops Dashboard and locate the import project button on the sidebar.
-
-2. Paste the Project Yaml
+1. Open [Zerops Dashboard](https://app.zerops.io/dashboard/projects) and locate the **import project** button on the left sidebar
+2. Copy & paste the YAML setup below and confirm
 
 ```yaml
 project:
   name: zerops-remix
 
 services:
-  - hostname: remixnode
-    type: nodejs@18
-    buildFromGit: https://github.com/fxck/zerops-remix-nodejs
+  - hostname: remixnodejs
+    type: nodejs@20
+    buildFromGit: https://github.com/zeropsio/recipe-remix-nodejs
     ports:
       - port: 3000
-        httpSupport: true
     enableSubdomainAccess: true
     minContainers: 1
 ```
 
-If you still find yourself stuck in the process join our [Discord community](https://discord.gg/5ptAqtpyvh).
+Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
