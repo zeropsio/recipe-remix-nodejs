@@ -25,10 +25,10 @@ services:
           <div className="max-w-lg space-y-10">
             <div>
               <h3 className="font-semibold text-lg">Step 1</h3>
-              <p className="font-medium">
                 <video width="full" className="rounded-xl mt-3" autoPlay loop>
                   <source src="import.mp4" type="video/mp4" />
                 </video>
+              <p className="font-medium mt-3">
                 <a href="https://zerops.io" target="_blank">
                   Create an account
                 </a>{" "}
