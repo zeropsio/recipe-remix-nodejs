@@ -20,35 +20,36 @@ services:
       <h2 className="text-center text-4xl font-semibold text-[#333]">
         Deploy to Zerops
       </h2>
-      <div className="grid grid-cols md:grid-cols-2 font-light gap-10 pt-4">
+      <div className="grid grid-cols md:grid-cols-2 font-light gap-5 md:gap-10 pt-4">
         <Card>
           <div className="max-w-lg space-y-10">
             <div>
               <h3 className="font-semibold text-lg">Step 1</h3>
-              <p className="font-medium">
-                Open{" "}
-                <a
-                  href="https://app.zerops.io/dashboard/projects"
-                  target="_blank"
-                >
-                  Zerops Dashboard
-                </a>{" "}
-                and locate the <strong>Import Project</strong> button on the sidebar. Not a
-                user?{" "}
+                <video width="full" className="rounded-xl mt-3" autoPlay loop>
+                  <source src="import.mp4" type="video/mp4" />
+                </video>
+              <p className="font-medium mt-3">
                 <a href="https://zerops.io" target="_blank">
-                  Register now
-                </a>
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-lg">Step 2</h3>
-              <p className="font-medium">
-                Copy and paste the YAML code and confirm
+                  Create an account
+                </a>{" "}
+                and locate the import button as shown in the video.
               </p>
             </div>
           </div>
         </Card>
-        <Code code={zeropsyaml} />
+        <div className="flex flex-col">
+          <Card>
+            <div className="max-w-lg space-y-10">
+              <div>
+                <h3 className="font-semibold text-lg">Step 2</h3>
+                <p className="font-medium">
+                  Copy and paste the YAML code and confirm
+                </p>
+              </div>
+            </div>
+          </Card>
+          <Code code={zeropsyaml} />
+        </div>
       </div>
     </div>
   );

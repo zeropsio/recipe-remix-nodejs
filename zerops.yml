@@ -3,8 +3,8 @@ zerops:
     build:
       base: nodejs@20
       buildCommands:
-        - npm i
-        - npm run build
+        - pnpm i
+        - pnpm run build
       deploy:
         - build
         - server.js
@@ -12,6 +12,6 @@ zerops:
         - node_modules
       cache:
         - node_modules
-        - package-lock.json
+        - pnpm-lock.json
     run:
-      start: npm start
+      start: pnpm start

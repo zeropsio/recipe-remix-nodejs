@@ -6,7 +6,7 @@ A Node.js Remix app deployment example for [Zerops](https://zerops.io) - a devel
 
 ## Deploy to Zerops
 
-1. Open [Zerops Dashboard](https://app.zerops.io/dashboard/projects) and locate the **import project** button on the left sidebar
+1. [Create an account](https://app.zerops.io/registration) and locate the "Import project" button in the top left menu.
 2. Copy & paste the YAML setup below and confirm
 
 ```yaml
