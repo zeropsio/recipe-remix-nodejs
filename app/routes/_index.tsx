@@ -52,7 +52,7 @@ export default function Index() {
         <a href="https://zerops.io" target="_blank">
           Zerops
         </a>
-        {" "}-{" "}<a href="https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops-project-import.yml">Source</a>
+        {" "}-{" "}<a href="https://github.com/zeropsio/recipe-remix-nodejs/">Source</a>
       </p>
     </div>
   );
