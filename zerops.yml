@@ -5,7 +5,7 @@ zerops:
       buildCommands:
         - pnpm i
         - pnpm run build
-      deploy:
+      deployFiles:
         - build
         - server.js
         - package.json
@@ -14,4 +14,8 @@ zerops:
         - node_modules
         - pnpm-lock.yaml
     run:
+      base: nodejs@20
+      ports:
+        - port: 3000
+          httpSupport: true
       start: pnpm start

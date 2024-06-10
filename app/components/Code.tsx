@@ -35,7 +35,7 @@ const CheckIcon = () => (
   </svg>
 );
 
-export function Code({ code }: { code: string }) {
+export function Code({ code, file }: { code: string, file: string }) {
   const [icon, setIcon] = useState(CopyIcon);
 
   const copy = async () => {
@@ -45,7 +45,9 @@ export function Code({ code }: { code: string }) {
   };
 
   return (
-    <pre className="bg-[#F7F7F7] rounded-md p-8 my-8 relative">
+    <pre className="my-8 bg-[#eeeeee] h-full rounded-md">
+      <p className="flex justify-center py-1 font-medium">{file}</p>
+      <pre className="bg-[#F7F7F7] rounded-md h-full p-8 relative">
       <button
         onClick={copy}
         className="absolute top-4 right-4 p-2 rounded-md bg-[#585858] text-white"
@@ -53,6 +55,7 @@ export function Code({ code }: { code: string }) {
         {icon}
       </button>
       <code className="text-[#585858] text-sm">{code}</code>
+      </pre>
     </pre>
   );
 }

@@ -92,3 +92,12 @@ a:hover {
 .secondarybutton:hover {
   background-color: #f3f3f3;
 }
+
+
+img {
+  user-select: none;
+}
+
+.badge {
+  transition: 300ms;
+}
