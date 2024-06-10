@@ -10,7 +10,7 @@ services:
   - hostname: remixnodejs
     type: nodejs@20
     enableSubdomainAccess: true
-    buildFromGit: https://github.com/nermalcat69/recipe-remix-nodejs`.trim();
+    buildFromGit: https://github.com/zeropsio/recipe-remix-nodejs`.trim();
   const zeropsyaml = `zerops:
   - setup: remixnodejs
     build:
