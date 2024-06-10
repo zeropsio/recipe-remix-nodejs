@@ -45,17 +45,17 @@ services:
         </a>
       <div className="flex justify-center pb-5">
         <svg height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 4V20M12 20L8 16M12 20L16 16" stroke="#F0F0F0" stroke-width="1.3" stroke-linecap="round" strokeLinejoin="round" />
+          <path d="M12 4V20M12 20L8 16M12 20L16 16" stroke="#F0F0F0" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         </div>
         <p className="max-w-lg text-center mx-auto">Deploying will import the following structure and use following instructions to build and deploy </p>
       </div>
       <div className="grid grid-cols md:grid-cols-2 font-light gap-5 md:gap-10 pt-4">
         <div className="flex flex-col">
-          <Code file="import-project.yml" code={importyaml} />
+          <Code fileLink="https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops-project-import.yml" file="zerops-project-import.yml" code={importyaml} />
         </div>
         <div className="flex flex-col">
-          <Code file="zerops.yml" code={zeropsyaml} />
+          <Code fileLink="https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops.yml" file="zerops.yml" code={zeropsyaml} />
         </div>
       </div>
     </div>

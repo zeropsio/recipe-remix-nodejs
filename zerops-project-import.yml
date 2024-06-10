@@ -1,0 +1,10 @@
+project:
+  name: recipe-remix
+  tags:
+    - zerops-recipe
+
+services:
+  - hostname: remixnodejs
+    type: nodejs@20
+    enableSubdomainAccess: true
+    buildFromGit: https://github.com/nermalcat69/recipe-remix-nodejs
