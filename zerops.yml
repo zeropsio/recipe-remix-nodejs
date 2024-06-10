@@ -12,6 +12,6 @@ zerops:
         - node_modules
       cache:
         - node_modules
-        - pnpm-lock.json
+        - pnpm-lock.yaml
     run:
       start: pnpm start
