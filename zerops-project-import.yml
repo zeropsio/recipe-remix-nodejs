@@ -4,7 +4,7 @@ project:
     - zerops-recipe
 
 services:
-  - hostname: remixnodejs
+  - hostname: app
     type: nodejs@20
     enableSubdomainAccess: true
     buildFromGit: https://github.com/nermalcat69/recipe-remix-nodejs

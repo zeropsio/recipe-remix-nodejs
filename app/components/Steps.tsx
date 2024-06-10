@@ -7,12 +7,12 @@ export function Steps() {
     - zerops-recipe
 
 services:
-  - hostname: remixnodejs
+  - hostname: app
     type: nodejs@20
     enableSubdomainAccess: true
     buildFromGit: https://github.com/nermalcat69/recipe-remix-nodejs`.trim();
   const zeropsyaml = `zerops:
-  - setup: remixnodejs
+  - setup: app
     build:
       base: nodejs@20
       buildCommands:

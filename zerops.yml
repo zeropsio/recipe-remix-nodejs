@@ -1,5 +1,5 @@
 zerops:
-  - setup: remixnodejs
+  - setup: app
     build:
       base: nodejs@20
       buildCommands:
