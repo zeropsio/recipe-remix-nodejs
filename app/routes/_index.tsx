@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <div className="pt-20 pb-10">
       <div className="text-center">
-        <span className="border border-dashed border-[#ACC6FF] bg-[#F6F9FF] text-md text-[#5A8DFF] rounded-md px-4 py-2 font-regular">
+        <span className="border border-dashed border-[#D7D7D7] bg-[#f7f7f7] text-md text-[#333] rounded-md px-4 py-2 font-regular">
           Developer-First Platform as a Service
         </span>
         <div>
@@ -52,6 +52,7 @@ export default function Index() {
         <a href="https://zerops.io" target="_blank">
           Zerops
         </a>
+        {" "}-{" "}<a href="https://github.com/zeropsio/recipe-remix-nodejs/">Source</a>
       </p>
     </div>
   );

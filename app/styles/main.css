@@ -46,7 +46,9 @@
   background-clip: text;
   color: transparent;
 }
-
+h1 {
+  color: #333333;
+}
 h3 {
   color: #333333;
 }
@@ -56,16 +58,17 @@ p {
 }
 
 a {
-  color: #5282ee;
+  color: #333;
   font-weight: 600;
 }
 
 a:hover {
-  color: #4579f1;
+  color: #444;
+  text-decoration: underline;
 }
 
 .primarybutton {
-  background-color: #3b82f6;
+  background-color: #333333;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
@@ -76,7 +79,7 @@ a:hover {
 }
 
 .primarybutton:hover {
-  background-color: #468af8;
+  background-color: #222;
 }
 
 .secondarybutton {
@@ -84,6 +87,7 @@ a:hover {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
+  color: #333333;
   padding-bottom: 0.5rem;
   font-weight: 500;
   transition: 0.1s;
@@ -91,4 +95,13 @@ a:hover {
 
 .secondarybutton:hover {
   background-color: #f3f3f3;
+}
+
+
+img {
+  user-select: none;
+}
+
+.badge {
+  transition: 300ms;
 }
