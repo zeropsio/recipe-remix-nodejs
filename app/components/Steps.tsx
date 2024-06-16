@@ -41,7 +41,7 @@ services:
         Deploy to Zerops with a Single Click
       </h2>
         <a className="badge flex justify-center hover:-translate-y-1 hover:duration-300 pb-5" href="https://app.zerops.io/recipe/remix" target="_blank">
-          <img width="300px" draggable="false" src="deploy.png"  alt="deploy on zerops with one click badge" />
+          <img width="300px" draggable="false" src="https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/deploy-button.webp"  alt="deploy on zerops with one click badge" />
         </a>
       <div className="flex justify-center pb-5">
         <svg height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
