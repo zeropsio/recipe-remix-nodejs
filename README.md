@@ -2,7 +2,9 @@
 
 ![remix](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-remix.png)
 
-Remix is a powerful framework for building fast, dynamic web applications with server-side rendering. [Zerops](https://zerops.io) makes deploying and managing Remix applications effortless, offering capabilities like automatic scaling, optional integrations for caching and logging, and seamless setup for additional services. With Zerops, you can easily enhance your Remix app's performance and monitoring, letting you focus on development without worrying about infrastructure complexities.
+Remix is a framework for fast, dynamic web apps with server-side rendering. [Zerops](https://zerops.io) simplifies deployment, offering automatic scaling, optional caching, logging integrations, and easy setup for additional services, letting you focus on development without infrastructure hassles.
+
+<br/>
 
 ## Deploy to Zerops
 
