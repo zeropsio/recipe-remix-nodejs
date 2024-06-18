@@ -8,7 +8,7 @@ Remix is a powerful framework for building fast, dynamic web applications with s
 
 You can either click the deploy button to deploy directly on Zerops, or manually copy the [import yaml](https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops-project-import.yml) to the import dialog in the Zerops app.
 
-<a href="https://app.zerops.io/recipe/remix">
+<a href="https://app.zerops.io/recipe/remix-nodejs">
     <img width="250" alt="Deploy on Zerops" src="https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/deploy-button.png">
 </a>
 
