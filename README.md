@@ -21,7 +21,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Production vs. development
-This recipe is ready for production as is, and will scale vertically by adding more containers in case of high traffic surges. If you want to achieve the highest baseline reliability and resiliace, start with at least two containers (add `minContainers: 2` in recipe YAML in the `app` service section, or change the minimum containers in "Automatic Scaling configuration" section of service detail).
+This recipe is ready for production as is, and will scale horizontally by adding more containers in case of high traffic surges. If you want to achieve the highest baseline reliability and resiliace, start with at least two containers (add `minContainers: 2` in recipe YAML in the `app` service section, or change the minimum containers in "Automatic Scaling configuration" section of service detail).
 
 Additionally for you might want to consider:
 - using Zerops Redis service for caching
