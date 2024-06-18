@@ -23,21 +23,21 @@ export default function Index() {
         <div>
           <div className="text-6xl font-bold space-y-3 mt-10 mb-10">
             <h1>Deploy your Remix apps</h1>
-            <h2 className="gradient-text">with <a class="hover:text-[#df4b57] text-inherit font-bold hover:no-underline no-underline" target="_blank" href="https://zerops.io">Zerops</a></h2>
+            <h2 className="gradient-text">with <a className="zerops" target="_blank" href="https://zerops.io">Zerops</a></h2>
           </div>
           <p className="max-w-[800px] mx-auto text-2xl font-medium">
             Remix example running on Zerops' Node.js service.<br/>
             Deploy and test yourself with a single click!
           </p>
 
-          <div class="flex justify-center  mt-8">
+          <div className="flex justify-center mt-10">
             <a
               href="https://app.zerops.io/recipe/remix-nodejs"
               target="_blank"
-              class="text-lg  inline-block deploybutton-a hover:no-underline"
+              className="text-lg inline-block hover:no-underline text-white"
             >
               <span
-                class="deploybutton rounded-full flex flex-row items-center justify-center space-x-4 hover:-translate-y-1 duration-300"
+                className="deploybutton rounded-full flex flex-row items-center justify-center space-x-4 hover:-translate-y-1 duration-300 text-white"
               >
                 <span>Deploy on Zerops</span>
                 <svg
@@ -57,7 +57,7 @@ export default function Index() {
       </div>
       <p className="text-center mt-10 text-[#939393]">
         Powered by{" "}
-        <a href="https://zerops.io" target="_blank">
+        <a className="link" href="https://zerops.io" target="_blank">
           Zerops
         </a>
       </p>
