@@ -30,7 +30,7 @@ Additionally for you might want to consider:
 <br/>
 
 ## Changes made over the default installation
-If you want to modify your own app running Astro Static to efficiently run on Zerops, there are no changes needed in the codebase, just add [zerops.yml](https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops.yml) to your repository.
+If you want to modify your own app running Remix to efficiently run on Zerops, there are no changes needed in the codebase on top of the standard installation, just add [zerops.yml](https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops.yml) to your repository.
 
 <br/>
 <br/>
