@@ -41,10 +41,13 @@
 
 .gradient-text {
   display: inline-block;
-  background-image: linear-gradient(to right, #3b82f6, #ef4444);
+  background-image: linear-gradient(to right, #3b82f6 0%, #ef4444 100%);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: transparent;
+  padding-bottom: 0.4em; /* Small padding to avoid clipping descenders */
+  background-position: 0%;
+  @apply text-6xl;
 }
 
 h1 {
@@ -59,13 +62,17 @@ p {
   color: #585858;
 }
 
-a {
-  color: #333;
+.copybtn {
+  transition: 300ms;
+}
+
+.link {
+  color: #444;
   font-weight: 600;
 }
 
-a:hover {
-  color: #444;
+.link:hover {
+  color: #333;
   text-decoration: underline;
 }
 
@@ -115,7 +122,7 @@ img {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   font-weight: 700;
-  color: #f1f1f1;
+  color: #fff;
   transition: 300ms;
 }
 
@@ -125,7 +132,7 @@ img {
 
 
 .primarybutton {
-  background-color: #2f3337;
+  background-color: #585858;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
@@ -136,11 +143,11 @@ img {
 }
 
 .primarybutton:hover {
-  background-color: #282c30;
+  background-color: #4a4a4a;
 }
 
 .discordbutton {
-  background-color: #3a3e44;
+  background-color: #686868;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
@@ -151,19 +158,23 @@ img {
 }
 
 .discordbutton:hover {
-  background-color: #2f3337;
+  background-color: #585858;
 }
 
 .zeropsbutton {
-  background-color: #424146;
+  background-color: #787878;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   font-weight: 500;
-  color: #e2e4e8;
+  color: #ffffff;
   transition: 300ms;
 }
 .zeropsbutton:hover {
-  background-color: #36393e;
+  background-color: #686868;
+}
+
+.zerops:hover {
+  color: #df4b57;
 }

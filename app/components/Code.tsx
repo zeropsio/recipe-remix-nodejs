@@ -53,11 +53,11 @@ export function Code({ code, file, fileLink }: CodeBlockProps) {
 
   return (
     <pre className="my-8 bg-[#eeeeee] h-full rounded-md">
-      <a href={fileLink} target="_blank" className="flex justify-center py-1 font-medium">{file}</a>
+      <a href={fileLink} target="_blank" className="link flex justify-center py-1 text-sm">{file}</a>
       <pre className="bg-[#F7F7F7] rounded-md h-full p-8 relative">
       <button
         onClick={copy}
-        className="absolute top-4 right-4 p-2 rounded-md bg-[#585858] text-white"
+        className="absolute top-4 right-4 p-2 rounded-md bg-[#585858] hover:bg-[#4a4a4a] copybtn duration-300  text-white"
       >
         {icon}
       </button>

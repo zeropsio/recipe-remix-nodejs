@@ -1,7 +1,7 @@
 import { Code } from "./Code";
 
 export function Steps() {
-    const importyaml = `project:
+const importyaml = `project:
   name: recipe-remix
   tags:
     - zerops-recipe
@@ -11,7 +11,8 @@ services:
     type: nodejs@20
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-remix-nodejs`.trim();
-  const zeropsyaml = `zerops:
+  
+const zeropsyaml = `zerops:
   - setup: app
     build:
       base: nodejs@20
@@ -32,7 +33,6 @@ services:
         - port: 3000
           httpSupport: true
       start: pnpm start`.trim();
-
   return (
     <div>
       <div className="flex justify-center">
@@ -40,29 +40,26 @@ services:
         and use following (zerops.yml) instructions to build and deploy your app:</p>
       </div>
       <div className="grid grid-cols md:grid-cols-2 font-light gap-5 md:gap-10 pt-4">
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-5">
           <Code fileLink="https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops-project-import.yml" file="zerops-project-import.yml" code={importyaml} />
           <div
-          class="flex flex-col py-10 h-[260px] rounded-md gap-5 px-10 border border-solid border-[#ebebeb]"
+          className="flex flex-col py-10 h-[260px] rounded-md gap-5 px-10 bg-[#F7F7F7]"
         >
           <a
             href="https://github.com/zeropsio/recipe-remix-nodejs"
             target="_blank"
-            class="primarybutton rounded-full text-center text-md duration-300 hover:no-underline"
-            >Recipe Source Code</a
-          >
+            className="primarybutton rounded-full text-center text-md duration-300 hover:no-underline"
+            >Recipe Source Code</a>
           <a
             href="https://discord.com/invite/WDvCZ54"
             target="_blank"
-            class="discordbutton rounded-full text-center text-md duration-300 hover:no-underline"
-            >Discord</a
-          >
+            className="discordbutton rounded-full text-center text-md duration-300 hover:no-underline"
+            >Discord</a>
           <a
             href="https://docs.zerops.io"
             target="_blank"
-            class="zeropsbutton rounded-full text-center text-md duration-300 hover:no-underline"
-            >Documentation</a
-          >
+            className="zeropsbutton rounded-full text-center text-md duration-300 hover:no-underline"
+            >Documentation</a>
         </div>
         </div>
         <div className="flex flex-col">
