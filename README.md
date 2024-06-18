@@ -1,8 +1,8 @@
-# Zerops x Remix - Nodejs
+# Zerops x Remix - Node.js
 
 ![remix](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-remix.png)
 
-A Node.js Remix app example for [Zerops](https://zerops.io).
+Remix is a powerful framework for building fast, dynamic web applications with server-side rendering. [Zerops](https://zerops.io) makes deploying and managing Remix applications effortless, offering capabilities like automatic scaling, optional integrations for caching and logging, and seamless setup for additional services. With Zerops, you can easily enhance your Remix app's performance and monitoring, letting you focus on development without worrying about infrastructure complexities.
 
 ## Deploy to Zerops
 
@@ -16,8 +16,23 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Recipe features
-- Remix v2 with latest Ract version.
-- Node.js running Express.js server on **Zerops Node.js** service
-- Vite for bundling remix project.
+- A Node.js version of Remix v2 running on a load balanced **Zerops Node.js** service.
+
+<br/>
+
+## Production vs. development
+This recipe is ready for production as is, and will scale vertically by adding more containers in case of high traffic surges. If you want to achieve the highest baseline reliability and resiliace, start with at least two containers (add `minContainers: 2` in recipe YAML in the `app` service section, or change the minimum containers in "Automatic Scaling configuration" section of service detail).
+
+Additionally for you might want to consider:
+- using Zerops Redis service for caching
+- setup [Winston](https://github.com/winstonjs/winston) for advanced and structured logging
+
+<br/>
+
+## Changes made over the default installation
+If you want to modify your own app running Astro Static to efficiently run on Zerops, there are no changes needed in the codebase, just add [zerops.yml](https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops.yml) to your repository.
+
+<br/>
+<br/>
 
 Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
