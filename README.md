@@ -18,7 +18,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Recipe features
-- A Node.js version of Remix v2 running on a load balanced **Zerops Node.js** service.
+A Node.js version of Remix v2 running on a load balanced **Zerops Node.js** service.
 
 <br/>
 
