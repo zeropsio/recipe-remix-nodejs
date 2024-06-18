@@ -21,7 +21,7 @@ export default function Index() {
           Developer-First Platform as a Service
         </span>
         <div>
-          <div className="text-6xl font-bold space-y-3 mt-10 mb-10">
+          <div className="text-6xl font-bold space-y-3 mt-10 mb-4">
             <h1>Deploy your Remix apps</h1>
             <h2 className="gradient-text">with <a className="zerops" target="_blank" href="https://zerops.io">Zerops</a></h2>
           </div>
@@ -30,7 +30,7 @@ export default function Index() {
             Deploy and test yourself with a single click!
           </p>
 
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center mt-12">
             <a
               href="https://app.zerops.io/recipe/remix-nodejs"
               target="_blank"
