@@ -46,9 +46,11 @@
   background-clip: text;
   color: transparent;
 }
+
 h1 {
   color: #333333;
 }
+
 h3 {
   color: #333333;
 }
@@ -97,11 +99,71 @@ a:hover {
   background-color: #f3f3f3;
 }
 
-
 img {
   user-select: none;
 }
 
 .badge {
   transition: 300ms;
+}
+
+
+.deploybutton {
+  background-color: #00b1a3;
+  padding-left: 7.25rem;
+  padding-right: 7.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+  color: #f1f1f1;
+  transition: 300ms;
+}
+
+.deploybutton:hover {
+  background-color: #3cbdb2;
+}
+
+
+.primarybutton {
+  background-color: #2f3337;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #fff;
+  transition: 300ms;
+}
+
+.primarybutton:hover {
+  background-color: #282c30;
+}
+
+.discordbutton {
+  background-color: #3a3e44;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #fff;
+  transition: 300ms;
+}
+
+.discordbutton:hover {
+  background-color: #2f3337;
+}
+
+.zeropsbutton {
+  background-color: #424146;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #e2e4e8;
+  transition: 300ms;
+}
+.zeropsbutton:hover {
+  background-color: #36393e;
 }

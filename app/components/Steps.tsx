@@ -35,24 +35,35 @@ services:
 
   return (
     <div>
-      <hr className="py-6 border-[#f4f4f4]" />
-      <div className="flex flex-col justify-center">
-      <h2 className="text-4xl font-semibold text-[#333] text-center py-10">
-        Deploy to Zerops with a Single Click
-      </h2>
-        <a className="badge flex justify-center hover:-translate-y-1 hover:duration-300 pb-5" href="https://app.zerops.io/recipe/remix" target="_blank">
-          <img width="300px" draggable="false" src="https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/deploy-button.webp"  alt="deploy on zerops with one click badge" />
-        </a>
-      <div className="flex justify-center pb-5">
-        <svg height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 4V20M12 20L8 16M12 20L16 16" stroke="#F0F0F0" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-        </div>
-        <p className="max-w-lg text-center mx-auto">Deploying will import the following structure and use following instructions to build and deploy </p>
+      <div className="flex justify-center">
+        <p className="text-center mx-auto">Deploying will import the following structure (zerops-project-import.yml)<br/>
+        and use following (zerops.yml) instructions to build and deploy your app:</p>
       </div>
       <div className="grid grid-cols md:grid-cols-2 font-light gap-5 md:gap-10 pt-4">
         <div className="flex flex-col">
           <Code fileLink="https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops-project-import.yml" file="zerops-project-import.yml" code={importyaml} />
+          <div
+          class="flex flex-col py-10 h-[260px] rounded-md gap-5 px-10 border border-solid border-[#ebebeb]"
+        >
+          <a
+            href="https://github.com/zeropsio/recipe-remix-nodejs"
+            target="_blank"
+            class="primarybutton rounded-full text-center text-md duration-300 hover:no-underline"
+            >Recipe Source Code</a
+          >
+          <a
+            href="https://discord.com/invite/WDvCZ54"
+            target="_blank"
+            class="discordbutton rounded-full text-center text-md duration-300 hover:no-underline"
+            >Discord</a
+          >
+          <a
+            href="https://docs.zerops.io"
+            target="_blank"
+            class="zeropsbutton rounded-full text-center text-md duration-300 hover:no-underline"
+            >Documentation</a
+          >
+        </div>
         </div>
         <div className="flex flex-col">
           <Code fileLink="https://github.com/zeropsio/recipe-remix-nodejs/blob/main/zerops.yml" file="zerops.yml" code={zeropsyaml} />
