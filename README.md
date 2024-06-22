@@ -1,4 +1,4 @@
-# Zerops x Remix
+# Zerops x Remix - Node.js
 
 ![remix](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-remix.png)
 
