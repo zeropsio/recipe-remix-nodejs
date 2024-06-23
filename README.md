@@ -13,7 +13,6 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 [![Deploy on Zerops](https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/green/deploy-button.svg)](https://app.zerops.io/recipe/remix-nodejs)
 
 <br/>
-<br/>
 
 ## Recipe features
 A Node.js version of Remix v2 running on a load balanced **Zerops Node.js** service.

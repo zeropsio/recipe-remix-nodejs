@@ -10,9 +10,6 @@ zerops:
         - server.js
         - package.json
         - node_modules
-      cache:
-        - node_modules
-        - pnpm-lock.yaml
     run:
       base: nodejs@20
       ports:
