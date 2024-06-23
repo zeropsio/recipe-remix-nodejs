@@ -1,8 +1,7 @@
 # Zerops x Remix - Node.js
+Remix is a framework for fast, dynamic web apps with server-side rendering. [Zerops](https://zerops.io) simplifies deployment, offering automatic scaling, optional caching, logging integrations, and easy setup for additional services, letting you focus on development without infrastructure hassles.
 
 ![remix](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-remix.png)
-
-Remix is a framework for fast, dynamic web apps with server-side rendering. [Zerops](https://zerops.io) simplifies deployment, offering automatic scaling, optional caching, logging integrations, and easy setup for additional services, letting you focus on development without infrastructure hassles.
 
 <br/>
 
@@ -12,7 +11,6 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 
 [![Deploy on Zerops](https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/green/deploy-button.svg)](https://app.zerops.io/recipe/remix-nodejs)
 
-<br/>
 <br/>
 
 ## Recipe features
