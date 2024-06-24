@@ -38,8 +38,7 @@ const CheckIcon = () => (
 interface CodeBlockProps {
   code: string;
   file: string;
-  fileLink: string; // Add a new prop for the file link
-
+  fileLink: string;
 }
 
 export function Code({ code, file, fileLink }: CodeBlockProps) {
